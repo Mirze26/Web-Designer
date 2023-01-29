@@ -1,0 +1,267 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.items ul{
+  display: flex;
+  list-style: none;
+  height: 80px;
+  align-items: center;
+}
+
+.items li{
+margin-left: 10px;
+font-size: 22px;
+}
+
+.items li a{
+text-decoration: none;
+}
+
+.items ul .line{
+    
+    background-color: black;
+    width: 1px;
+    margin-left: 10px;
+    height: 35px;
+
+}
+
+
+.content img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0 10px 10px 0;
+    
+    
+}
+
+.content{
+ width: 400px;  
+ 
+}
+
+
+
+.box{
+  width: 300px;
+  height: 140px;
+  background-color: yellow;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.box p{
+text-align: justify;
+}
+
+.text-align-last{
+  width: 300px;
+  height: 140px;
+  background-color: aquamarine;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.text-align-last p{
+  text-align-last: right;
+  
+}
+
+.flex{
+  display: flex;
+  
+}
+
+.flex .text-align-last{
+  margin-left: 10px;
+}
+
+.text-indent{
+  height: 140px;
+  width: 300px;
+  background-color: chocolate;
+  padding: 10px;
+  margin: 10px;
+  text-indent: 40px;
+}
+
+.letter-spacing{
+  height: 141px;
+  width: 295px;
+  background-color: rgb(11, 235, 67);
+  padding: 11px;
+  margin: 2px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+
+.scroll{
+height: 160px;
+width: 317px;
+padding: 10px;
+background-color: darkkhaki;
+overflow-y:scroll;
+}
+
+.button{
+  font-size: 21px;
+  height: 26px;
+  width: 100px;
+  background-color: darkgrey;
+  margin-left: 75px;
+  margin-top: 20px;
+  border-radius: 8px;
+  transition: all 1s;
+}
+.button:hover{
+  color: rgb(192, 241, 12);
+  background-color: black;
+}
+
+.item1{
+  height: 300px;
+  width: 300px;
+  background-color: violet;
+  /* display: none; */
+  visibility: hidden;
+}
+
+.item2{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(235, 214, 235);
+  padding-left: 22px
+  
+}
+
+.item2 i{
+  margin-left: 85px;
+  margin-top: 4px;
+  font-size: 94px;
+}
+
+.fonts{
+  margin: 100px;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+.icon .icon1{
+  font-size: 40px;
+  color: rgb(60, 2, 126);
+  margin: 100px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 0px 0px 6px rgb(83, 3, 148);
+  
+}
+
+.icon .icon2{
+  font-size: 40px;
+  color: rgb(177, 7, 7);
+  margin: 100px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 40px;
+  box-shadow: 3px 0px 0px 6px rgb(192, 4, 4);
+}
+
+.icon .icon3{
+  font-size: 40px;
+  color: rgb(3, 163, 17);
+  margin: 100px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 60px;
+  box-shadow: 3px 0px 0px 6px rgb(3, 114, 40);
+
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.students .create{
+width: 50px;
+height: 50px;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+float: right;
+margin-right: 50px;
+margin-bottom: 10px;
+}
+
+.students .create a i{
+  color: aqua;
+  font-size: 20px;
+  display: block;
+}
+
+.students h2{
+  text-align: center;
+  margin: 35px;
+  font-size: 35px;
+  margin-bottom: 10px;
+ 
+}
+
+.students a{
+  text-decoration: none;
+  display: block;
+}
+
+.students table .icons{
+  display: flex;
+  gap: 20px ;
+}
+
+.students table .icons a:nth-child(1) i{
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+.students table .icons a:nth-child(2) i{
+  background-color: rgb(16, 240, 128);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+.students table .icons a:nth-child(3) i{
+  background-color: rgb(230, 49, 3);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+
+

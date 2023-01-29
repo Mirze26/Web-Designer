@@ -1,0 +1,56 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+.background{
+    height: 470px;
+    width: 379px;
+    background-color:white;
+    margin: 5px;
+    margin-left: 400px;
+    margin-top: 56px;
+    border: 1px solid #f3ebeb;
+    box-shadow: 0px 1px 3px 3px white;
+}
+
+.background a i{
+    font-size: 55px;
+    margin-top: 23px;
+    margin-left: 111px;
+    height: 65px;
+    width: 74px;
+    padding: 35px;
+    padding-top: 51px;
+    padding-left: 50px;
+    background-color: darkred;
+    color: white;
+    border: 2px;
+    border-radius: 1% 32%
+}
+
+.background h2{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 3px;
+    margin-top: 60px;
+    margin-bottom: -33px;
+    margin-left: 117px
+    
+}
+
+.background .dell{
+    margin-top: 29px;
+    margin-left: 140px;
+}
+
+.background .lorem{
+    font-size: 20px;
+    padding: 39px;
+    margin-top: 20px;
+    margin-left: 37px;
+    
+    
+}
